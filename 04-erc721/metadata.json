@@ -1,0 +1,12 @@
+{
+    "name": "BabyP",
+    "description": "Nag cry nako",
+    "symbol": "BBP",
+    "image": "https://imgur.com/a/lwawEH4.jpeg",
+    "attributes": [
+        {
+            "trait_type": "TYPE",
+            "value": "VALUE"
+        }
+    ]
+}
