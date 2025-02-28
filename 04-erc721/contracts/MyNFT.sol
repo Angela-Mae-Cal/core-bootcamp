@@ -12,11 +12,11 @@ contract MyNFT is ERC721URIStorage {
     constructor() ERC721("BabyP", "BBP") {}
 
     function mint() external {
-        // _safeMint(msg.sender, tokenId);
-        // _setTokenURI(
-        //     tokenId,
-        //     "https://imgur.com/a/lwawEH4"
-        // );
-        // tokenId++;
+         _safeMint(msg.sender, tokenId);
+         _setTokenURI(
+             tokenId,
+             "https://raw.githubusercontent.com/Angela-Mae-Cal/core-bootcamp/refs/heads/main/04-erc721/metadata.json"
+         );
+         tokenId++;
     }
 }
